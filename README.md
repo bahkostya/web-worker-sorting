@@ -5,7 +5,7 @@
 To do the assignment you need to have in your system:
 
 - [git](https://git-scm.com/)
-- [Node LTS](https://nodejs.org/en/about/releases/) or above (Node 10.X.X at the time of writing)
+- [Node LTS](https://nodejs.org/en/about/releases/) or above (Node 12.17.0 at the time of writing)
 - [yarn](https://yarnpkg.com/en/)
 
 This README assumes you have these dependencies already. If you need instructions to install them they should be available in their respective websites.
