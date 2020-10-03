@@ -1,0 +1,6 @@
+export const MESSAGES = {
+  START: 'START',
+  ADD_NUMBER: 'ADD_NUMBER',
+  FINISH: 'FINISH',
+  NUMBER_ADDED: 'NUMBER_ADDED',
+};
