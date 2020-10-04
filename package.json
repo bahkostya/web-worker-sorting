@@ -9,7 +9,7 @@
     "rollup-plugin-serve": "^1.0.4"
   },
   "scripts": {
-    "build": "rollup -c",
+    "build": "NODE_ENV=production rollup -c",
     "start": "rollup -cw"
   }
 }

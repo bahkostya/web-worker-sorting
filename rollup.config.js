@@ -1,6 +1,8 @@
 import serve from 'rollup-plugin-serve';
 import livereload from 'rollup-plugin-livereload';
 
+const isProd = process.env.NODE_ENV === 'production';
+
 export default [
   {
     input: 'src/index.js',
@@ -8,7 +10,7 @@ export default [
       file: 'dist/bundle.js',
       format: 'iife',
     },
-    plugins: [serve(), livereload()],
+    plugins: [serve(), !isProd && livereload()],
   },
   {
     input: 'src/worker.js',
